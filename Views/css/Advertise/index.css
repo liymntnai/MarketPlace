@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* body{
+    /* background-color: #f2f2f2 ; 
+
+} */
+.imageUpload{
+    /* background-color: white; */
+    background-color: #f2f2f2;
+    width: 60%;
+    /* min-width: 450px; */
+    position: relative;
+    margin: 50px auto;
+    padding: 50px 20px;
+    border-radius: 7px;
+    box-shadow: 0 20px 35px rgba(0,0 0, 0.05);
+display: none;
+
+}
+input[type='file']{
+    display: none;
+}
+label{
+    display: block;
+    position: relative;
+    background-color: #025bee;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 18px 0;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.imageUpload p{
+    text-align: center;
+    margin: 20px 0 30px 0;
+  
+}
+#images{
+    width: 90%;
+    margin: 1px solid black;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;gap: 20px;
+    flex-wrap: wrap;
+}
+figure{
+    width: 45%;
+
+}
+img{
+    width: 100%;
+    max-height: 200px;
+
+}
+figcaption{
+    text-align: center;
+    font-size: 2.4vmin;
+    margin: 0.5vmin;
+}
+#submit{
+    margin:0;
+    padding: 5px 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    background-color: #01c050;
+}
+h5{
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#mybutton{
+   position: absolute;
+   bottom:5px;
+   right: 20px;
+   box-shadow: 0 0 3px black;
+   transition: 0.5s;
+}
+#mybutton-photo{
+    margin:20px;
+    display: flex;
+    /* box-shadow: 0 0 3px black; */
+    transition: 0.5s;
+    gap:20px;
+    justify-content: space-around;
+}
+.next{
+    padding: 5px 50px; color: white;
+    background-color: #0271cb;
+    font-size: 1.2em;
+    border-radius: 5px;
+
+}

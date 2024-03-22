@@ -1,0 +1,138 @@
+
+   <!DOCTYPE html>
+   <html dir="ltr" lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Insert Pictures</title>
+
+      <link href="/ContentSVC/Content/Styles/LandingPage.css" rel="stylesheet"/>
+
+      <script>
+        var setLang = "en-US";
+        var flightAudience = "True";
+        var wvhost = 0;
+
+        function getOfficeHost() {
+           if (!!wvhost
+              && window.chrome
+              && window.chrome.webview
+              && window.chrome.webview.hostObjects
+              && window.chrome.webview.hostObjects.sync) {
+              return window.chrome.webview.hostObjects.sync.office_wv2;
+           }
+           return window.external;
+        }
+      </script>
+   </head>
+   <body>
+      <div class="ie9UpgradeMsg">
+            For the best experience, please download the latest version of Internet Explorer.       <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=847011">Learn More</a>
+.
+      </div>
+      <div>
+         <div id="SendASmile">
+            <button
+               onclick="javascript:getOfficeHost().feedback(true);"
+               alt="Send a Smile"
+               aria-label="Send a Smile"
+               title="Send a Smile"
+               type="button">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" role="img" focusable="false">
+                  <path d="M 819 766 q 0 32 -8 60 q -8 28 -22 49 q -14 21 -33 33 q -19 12 -40 12 q -21 0 -40 -12 q -19 -12 -33 -33 q -14 -21 -22 -49 q -8 -28 -8 -60 q 0 -32 8 -60 q 8 -28 22 -48 q 14 -21 33 -33 q 19 -12 40 -12 q 21 0 40 12 q 19 12 33 33 q 14 20 22 48 q 8 28 8 60 m 615 0 q 0 32 -8 60 q -8 28 -22 49 q -14 21 -33 33 q -19 12 -40 12 q -21 0 -39 -12 q -19 -12 -33 -33 q -14 -21 -22 -49 q -8 -28 -8 -60 q 0 -32 8 -60 q 8 -28 22 -48 q 14 -21 33 -33 q 18 -12 39 -12 q 21 0 40 12 q 19 12 33 33 q 14 20 22 48 q 8 28 8 60 m -410 1180 q -127 0 -244 -33 q -118 -33 -220 -93 q -103 -60 -187 -144 q -85 -85 -145 -187 q -60 -103 -93 -220 q -33 -118 -33 -245 q 0 -127 33 -244 q 33 -118 93 -220 q 60 -103 145 -187 q 84 -85 187 -145 q 102 -60 220 -93 q 117 -33 244 -33 q 127 0 245 33 q 117 33 220 93 q 102 60 187 145 q 84 84 144 187 q 60 102 93 220 q 33 117 33 244 q 0 127 -33 245 q -33 117 -93 220 q -60 102 -144 187 q -85 84 -187 144 q -103 60 -220 93 q -118 33 -245 33 m 0 -1741 q -113 0 -217 30 q -105 29 -196 82 q -91 53 -166 128 q -75 75 -128 166 q -53 91 -82 196 q -30 104 -30 217 q 0 113 30 218 q 29 104 82 195 q 53 91 128 166 q 75 75 166 128 q 91 53 196 83 q 104 29 217 29 q 113 0 218 -29 q 104 -30 195 -83 q 91 -53 166 -128 q 75 -75 128 -166 q 53 -91 83 -195 q 29 -105 29 -218 q 0 -113 -29 -217 q -30 -105 -83 -196 q -53 -91 -128 -166 q -75 -75 -166 -128 q -91 -53 -195 -82 q -105 -30 -218 -30 m 456 1047 q -32 63 -79 116 q -47 52 -105 90 q -59 37 -128 58 q -69 20 -144 20 q -75 0 -144 -20 q -69 -21 -127 -58 q -59 -38 -106 -90 q -48 -53 -79 -116 l 91 -46 q 25 50 63 92 q 38 42 85 72 q 47 30 102 47 q 55 17 115 17 q 60 0 115 -17 q 55 -17 102 -47 q 47 -30 85 -72 q 37 -42 63 -92 z" />
+               </svg>
+            </button>
+            <button
+               onclick="javascript:getOfficeHost().feedback(false);"
+               alt="Send a Frown"
+               aria-label="Send a Frown"
+               title="Send a Frown"
+               type="button">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" role="img" focusable="false">
+                  <path d="M 1024 1946 q -127 0 -244 -33 q -118 -33 -220 -93 q -103 -60 -187 -144 q -85 -85 -145 -187 q -60 -103 -93 -220 q -33 -118 -33 -245 q 0 -127 33 -244 q 33 -118 93 -220 q 60 -103 145 -187 q 84 -85 187 -145 q 102 -60 220 -93 q 117 -33 244 -33 q 127 0 245 33 q 117 33 220 93 q 102 60 187 145 q 84 84 144 187 q 60 102 93 220 q 33 117 33 244 q 0 127 -33 245 q -33 117 -93 220 q -60 102 -144 187 q -85 84 -187 144 q -103 60 -220 93 q -118 33 -245 33 m 0 -1741 q -113 0 -217 30 q -105 29 -196 82 q -91 53 -166 128 q -75 75 -128 166 q -53 91 -82 196 q -30 104 -30 217 q 0 113 30 218 q 29 104 82 195 q 53 91 128 166 q 75 75 166 128 q 91 53 196 83 q 104 29 217 29 q 113 0 218 -29 q 104 -30 195 -83 q 91 -53 166 -128 q 75 -75 128 -166 q 53 -91 83 -195 q 29 -105 29 -218 q 0 -113 -29 -217 q -30 -105 -83 -196 q -53 -91 -128 -166 q -75 -75 -166 -128 q -91 -53 -195 -82 q -105 -30 -218 -30 m -205 561 q 0 32 -8 60 q -8 28 -22 49 q -14 21 -33 33 q -19 12 -40 12 q -21 0 -40 -12 q -19 -12 -33 -33 q -14 -21 -22 -49 q -8 -28 -8 -60 q 0 -32 8 -60 q 8 -28 22 -48 q 14 -21 33 -33 q 19 -12 40 -12 q 21 0 40 12 q 19 12 33 33 q 14 20 22 48 q 8 28 8 60 m 615 0 q 0 32 -8 60 q -8 28 -22 49 q -14 21 -33 33 q -19 12 -40 12 q -21 0 -39 -12 q -19 -12 -33 -33 q -14 -21 -22 -49 q -8 -28 -8 -60 q 0 -32 8 -60 q 8 -28 22 -48 q 14 -21 33 -33 q 18 -12 39 -12 q 21 0 40 12 q 19 12 33 33 q 14 20 22 48 q 8 28 8 60 m -45 792 q -26 -50 -63 -92 q -38 -42 -85 -72 q -47 -30 -102 -46 q -55 -17 -115 -17 q -60 0 -115 17 q -55 16 -102 46 q -47 30 -85 72 q -38 42 -63 92 l -91 -45 q 31 -63 79 -115 q 47 -52 106 -89 q 58 -38 127 -59 q 69 -21 144 -21 q 75 0 144 21 q 69 21 128 59 q 58 37 105 89 q 47 52 79 115 Z" />
+               </svg>
+            </button>
+         </div>
+      </div>
+      <div id="ContentSection">
+         <div id="MainContent">
+            <div class="cdTitle0" id="Title">Insert Pictures</div>
+         </div>
+         <div class="unsupBrwsrMsg">
+            To see this content, please download the latest version of Internet Explorer.       <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=847011">Learn More</a>
+.
+         </div>
+         <div id="SlabSection">
+            <div class="dvSlab0">
+               <input id="searchtype" type="Hidden" value="Image">
+               <form class="FullSearch" id="frmInsertMediaSearch" method="get" autocomplete="off">
+
+                  <div id="Providers">
+                     <hr class="ProviderSeparator">
+                           <div title="" class="Provider BrowseProvider ProviderHover" id="LocalMachineProvider">
+                              <div class="ProviderLogo">
+                                 <img title="From a file" alt="From a file" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAExElEQVR4XoWUS2/b1hLH57xIiiIlOpZqS47sNEaAxEBTuAXSTYGg3bb7rvpVjHyBdtsP0cc6QRcXuPdujaKrNE7ippL1ViW+n+ccdiADBmqg6J/EweHgP78Z8mBIpJTwd1VlpVVuWIJSQQgjhGzDuEJdw/V6feH2JovfojBGV8Hmf///JU3I4WB3t2O2PbPtWpSYNXDGueCCMU4YA4KiQJBGboO2xYmq5Q8/Xf34vewfVe09q9t1Dvacj5/wk2PGBTFNcBvI46ZJm5ZwGiblAijl1/lbBGitlZJBEC9mIKU9nNqwbIPagcKTTeezp7SqVJypTQVlpqXMDVYTUvS9OAmnHBGUUillspUQ1Xy6iUIFUMOuAiKBSvBVEHDb5J0+BDGWh5pg1RZaRksVp8PQ93lZVrPpNI6ipms3Gs2G5UhFqG0wm6skB9sGVgDPL95mL986HxokSIAyYHhTMAQITmQWW6ZFR8Pht9989/z5f1quq7SazebzZbjXcw7uWZCmIAsACaIcz4qXb3QQQpJAGIEfgh/BfAObUOZpTCihSbV5lf53HL/15/FqtcyLPEuxFL/bY5RkkIVQhUCiLAxeX2bzdR1EtR/UCELccg1FXmiZm6bJHc/8/OvjbrUf+xocqIpy/WecxIXTtBxHhjGCCJAKsvzdJR1PiBCsqChlzBQ0TIhnl2Apx3WpJXdP4q92y5NATYsiz7N8Ok0Wi1wpabtbhCoBCtDZYh6Nx+lymS+XxXJRLFfVdIbdFABKGCYHSrhsFzLNGxlApSq93KjFsqAUKJOUaV3lgA9Qr9eNd1fxnZ1Gue2IC+5H7OEgrbUWXKAdrDax27xMyzSJwjB990cymyajqzCKEkJL7AVUDiSLQn848q8m0WSWTOdoSGeLiEJqGMK2m5wAQT4lVCqpdBWGikrpCNhsyjLOocZKCkoN1EoSMpn4ZSE1CFRRGYRqqFNhGpZl8VrXlZRSY6gOgjjPii++ND996q0W+Gmr8VW0XqsgUmlRyTC5vGDLdsqEaNhGlIrDA26woq4Jiutal3lOCHJq5LVa7uH7PM9CmYNp7SSxN5nno4laLelsQcMUoqJe+WUY5tFQ9Vo4dYyQBgDw7XBExra9ludZppUlcjScS1WcPOx88uRenAajq6G/DtKUUN6qeWvtN8cz/et58eABo5AJYVJKyevXb168+Nmxm3v7nd9evdpsNvu9/f1e7/DwXm+/V5XlaDSajIez6ajIAmGQdtvde++9O51+WXuCiXAz7989ePToEXv27CwMI0Zpt9sBgFar9cHjxx+dnh4NBmHoX1xcxHFk2c221zEaXlaQq/H68vdxEmeuoxoNQojpttxGwyJaaxz6NE1xZIVhIEsIga2u1+vz83OMe57XbDYdp1lJFUVR4Puz2WyzCTgXntc+Ohq4rruzs8POzs5wUtBq4Lxsdf1vimMcvRXu0Ycg07SgrgXn+Ihdm6ahtQSo0W8YBkYoHpZCaY3LjTCIRY6Pj7Ed3GvU1gAERaqqwpO5f//+6enpYDDo9/udTufm539bjDFMDoIAX+fag6CiKDCIaMdxut0urpiOaDSD/Gdd52B+nuf4pkj0fR+PFT9cvdWNAc0g/03oQ+JN2g3ilu0vEmdpqpRpGB4AAAAASUVORK5CYII=">
+                              </div>
+                              <div class="ProviderText">
+                                 <div class="ProviderHeading">From a file</div>
+                              </div>
+                              <div class="ProviderBody Browse cdLink0">
+                                 <div class="ProviderBodyContent">
+
+<a title="Browse From a file" aria-label="Browse From a file" class="BrowseLink" href="javascript:getOfficeHost().ShowCFD()">
+                                             Browse
+                                             <img class="Triangle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHAQMAAAAVq36TAAAABlBMVEUAAAB3d3daxsy0AAAAAXRSTlMAQObYZgAAABxJREFUeF4NwzEBAAAIArBFJxpRjGAEPSZq7KscJF4FMTAtnEMAAAAASUVORK5CYII=">
+                                          </a>
+                                 </div>
+                                 <div class="ProviderHint">""</div>
+                              </div>
+                           </div>
+                           <hr class="ProviderSeparator">
+                           <div title="" class="Provider SearchProvider RequiresFlashProvider ProviderHover" id="BingSearchProvider">
+                              <div class="ProviderLogo">
+                                 <img title="Bing Image Search" alt="Bing Image Search" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAP9JREFUSEvtVcENwjAMTMsmzMEOrMAITMDHkfphABZgARZgACZgARboAGBHlxIFY9Iq0A8nndpe7HOTOK2bBS3RlblzXbeEVBet9/fIhugEuR7SAkLI9fAv8BGzFFh4v67WuloBMeb7Xp6ldfm6DfoURONIyA7G6VgvmswOIWXITJ57QLTKxwYS3RrvD4i0kSdDDmCjSz6eEmE2zCTeC3lT1sN+5ESUjZKk0FVKEQzbMJO+OQM5B/ysGoM9Qm0oiRvpEkUfGDqo9BBqBu/IxmdpX6SWQTN6ofz1eGZIGQck68a8znx69widDq1T2PhY5WM3gNdW1lhO7+h1/g2cewDHoGQAv3ciXwAAAABJRU5ErkJggg==">
+                              </div>
+                              <div class="ProviderText">
+                                 <div class="ProviderHeading">Bing Image Search</div>
+                              </div>
+                              <div class="ProviderBody Browse cdLink0">
+                                 <div class="ProviderBodyContent BorderGray">
+
+                                          <input title="Enter your search term" aria-label="Enter your search term" class="InputText InputBase DefaultText" id="BingSearchBox" type="text" maxlength="128" value="Search Bing">
+                                          <input title="Search Bing" aria-label="Search Bing" class="BtnSearchButton" type="image" alt="Search Bing" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAAbFBMVEW9vb3AwMDb29vo6OjIyMjk5OTKysrBwcHu7u709PTOzs7R0dHS0tLV1dXZ2dnDw8Pd3d3e3t7g4ODh4eG/v7++vr7p6enq6urs7Ozt7e3MzMzw8PDx8fHNzc3+/v7////GxsbQ0NDPz8/i4uIwwMXbAAAAaUlEQVR4Xp2QRw6EQAwEx/YEcs6Z3f//kXAxMCfoS0klS25bzFbeKSeQK90UQkQo/YtqwdkxjRkrH0+QZKXVCTe2pirJqimHA17K6i+KvFG/jjciQNAtOuFeYQHq3t41pn4eRP2nT1jZABlDIuI2GxSeAAAAAElFTkSuQmCC">
+                                 </div>
+                                 <div class="ProviderHint">"Enter your search term"</div>
+                              </div>
+                           </div>
+                           <hr class="ProviderSeparator">
+                           <div title="" class="Provider BrowseProvider ProviderHover" id="OneDriveProvider">
+                              <div class="ProviderLogo">
+                                 <img title="OneDrive" alt="OneDrive" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD/UlEQVR4Xu3cYWRjaRTH4SGUEEIIJSzDsJQylGEYSglZpSxLKGVZQhlCGMqwlKEsoYQSljIspdQOYSn9WkIYQimhDCWUEkII5d3fh+TD3r3pvXfy3pvc5B+ej9dJz7nS95z3vfeFPiIiIiIiIiIiIiIiIvKs5E9/v8QvKOF31FFBCXm8sh9VSV9HFfcwPtzhGNtY+f7ISvw7XMNM4QEVpPxHVuJXcQFj0SPK3tGV/DweYELyD7Lu0ZX8EkwEunj93+hKfhkmQo/YUOZBIoowM/CItWVP/gYGMDNyg+QiJDKLPdRxgRbaaOEcVWyP/tjxNSu4hZmx0zgnfgsNGJ+GOMWPOISZE+/ilvgfPBPvbQgzJ74iEZfkb6IHE7EntHCJOg5Qwj7qaODbFDGKcUj+doR37gBnKCIbcGD3Hq2A8a5jMBSL5M7v4yPSFr7zGzT9xp6/Bi36FcsJMiF8/1/RhfFwNK8FOIjgri94JDGFDeyghGPU8QklbGLF4/q/PArQnsfkp9GHCUkHrybETmI34IqrgR0kJhTio8f12XkrwAeYkNwjN6Hox+hN2eUWJhShgnH8L46dtdy8FaANE4Ie1icsc7s2O10k3XqZuOzBmpDsusTbxVNIjVZWY2KMXLiNNULuMW6RjVsBPofUYOVm1GM0seKI/RYl/IH6SA0lbM66ANcwllUdMRL4ChORGl7jT59F76KO9VkU4B7GoiFWHTH2YWLgCceRnrAIYfRw7tJjPMLESDey8XUIJxS2Y3r3Ow1QiNtP0ABJtx4jpnpYD2PWXw0hMQPUXFY+xoL4b+QQYC+EpPdxii0kPAZ8cbY/7Wb6ZQjHPSpIe8S+gFkAnWmOhHRhLDpDxmf8O5gFsRU0+TnLa/whyj5iFlHFZzzBLIjDoLtbTcvJz0+IlUEZbZgFdhWkABXLwYsuMRIoow+zBG79Jj9hubmqTfipacEskQe/BShYbslTLquqG5gl0/NbgKrFoBWXTe82zJK6wyGyzxXgymJnm3EU4AgmKUN8QjLMtXfD8+SEdP6372xx9Fvx9XiRdLEWxny/4HvrUm6QGieqYynAy0BjZamNE/XFRgDnvMdzpiR9pF8Q4L2lAOnAW5dSGT2FbmUIlgv8z10a42SdWAiw5iiA99F16YyTtWphzZ53FODc8xp5cG5BmikcBJ6wStfZlB1ZPN/zxvMaabqNJo4iO2IitYknIr6zQ/450CErKTw3Jc3gJOAS9cq52TNxI0a+IeH3ebA9nKHlo8N967h+zfXlG/JblAd6dzAEgSGXs3qdQSep5DeRnuXD3R+WeE5UQ2oeHnNKII8qWiNmAQ3QQi3iVx6IiIiIiIiIiIiIiIiIiIjo8y8TdJr45C6YLgAAAABJRU5ErkJggg==">
+                              </div>
+                              <div class="ProviderText">
+                                 <div class="ProviderHeading">OneDrive - Personal</div>
+                              </div>
+                              <div class="ProviderBody Browse cdLink0">
+                                 <div class="ProviderBodyContent">
+
+<a title="Browse OneDrive - Personal" aria-label="Browse OneDrive - Personal" class="BrowseLink" tabindex=0 id="OneDriveBrowseLink">
+                                             Browse
+                                             <img class="Triangle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAHAQMAAAAVq36TAAAABlBMVEUAAAB3d3daxsy0AAAAAXRSTlMAQObYZgAAABxJREFUeF4NwzEBAAAIArBFJxpRjGAEPSZq7KscJF4FMTAtnEMAAAAASUVORK5CYII=">
+                                          </a>
+                                 </div>
+                                 <div class="ProviderHint">""</div>
+                              </div>
+                           </div>
+                           <hr class="ProviderSeparator">
+                  </div>
+               </form>
+            </div>
+    </div>
+    <script>var g_CorrelationId = '83c2bb95-f0db-446f-a2ad-cce9df639976';</script>
+    <script src="/ContentSVC/bundles/jquery?v=M6dmVkrHVhoZ1gfOtvVDZbgBcQTsbWxoLsRizcGkbPk1"></script>
+
+    <script src="/ContentSVC/bundles/LandingPageScripts?v=tImydcfgDZswAtNy2Uxp9-43jDZSuQ5yBJSc8Y3p4WQ1"></script>
+
+</body>
+</html>

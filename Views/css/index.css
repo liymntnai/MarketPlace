@@ -1,0 +1,97 @@
+.categories-item {
+
+    /* position: relative;
+    z-index: 1; */
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 860px;
+    margin: auto;
+    justify-content: center;
+}
+
+.single-categories-item {
+    /* width: 165px; */
+    /* width: 265px; */
+    display: inline-block;
+    /* height: 145px; */
+    background: #fff;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 5%;
+    opacity: 0.8;
+    transition: .3s;
+
+
+
+}
+.single-categories-item:hover{
+    transform: scale(1.1);
+}
+
+.single-categories-item img {
+    width: 120px;
+    height: 100px;
+    margin-right:10px ;
+}
+
+.single-categories-item h3 {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #f5063d;
+}
+
+section#categories {
+    /* background: #043b4463; */
+    /* background: #c2532063; */
+    background-color:  #ef2727aa;
+    /* background: no-repeat top/ cover url('blog_online_marketing.jpg'); */
+    position: relative;
+    padding: 20px 0 40px 0;
+}
+section#categories h1 {
+    margin-top: 45px;
+    font-stretch: semi-expanded;
+    font-weight: bold;
+}
+.header{
+    background-color:#f1b6b6aa;
+    /* background: rgb(255, 166, 0); */
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    margin: 0 20px;
+    color: black;
+}
+a:hover{
+    color: orangered;
+}
+.logo{
+    font-weight: bold;
+    color: #f49014;
+}
+.advertise{
+    background-color: orangered;
+color: white;
+border-radius: 20px;
+padding: 5px 10px;
+border: 0;
+text-decoration: none;
+}
+
+.advertise:hover{
+background-color: #d44908;
+color: white;
+text-decoration: none;
+}
+.advertise:active{
+    box-shadow: 0 0 10px inset #ccc;
+  
+}.fa{
+    width: 30px;
+    height: 30px;
+}   
